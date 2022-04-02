@@ -23,11 +23,11 @@ configuration {
 
 window {
     transparency:                   "real";
-    background-color:               @bg;
-    text-color:                     @fg;
+    background-color:               #ffffff;
+    text-color:                     #000000;
 	border:							0px;
 	border-color:					@bg1;
-    border-radius:                  0px;
+    border-radius:                  5px;
 	width:							300px;
     location:                       center;
     x-offset:                       0;
@@ -45,14 +45,14 @@ textbox-prompt-colon {
 	padding: 						10px 15px 10px 15px;
 	font:							"Iosevka Nerd Font 12";
 	background-color: 				@bg1;
-	text-color: 					@fga;
+	text-color: 					#ffffff;
 	expand: false;
 	str: "";
 }
 
 entry {
     background-color:               @bg2;
-    text-color:                     @fga;
+    text-color:                     #ffffff;
     placeholder-color:              @fga;
     expand:                         true;
     horizontal-align:               0;
@@ -99,8 +99,8 @@ element {
     background-color:               @al;
     text-color:                     @fg;
     orientation:                    horizontal;
-    border-radius:                  0px;
-	padding: 						8px 8px 8px -25px;
+    border-radius:                  3px;
+	padding: 						2px 2px 2px -25px;
 }
 
 element-icon {
@@ -116,9 +116,9 @@ element-text {
 }
 
 element selected {
-    background-color:               @bg;
-    text-color:                     @bg3;
-	border:							0px;
-    border-radius:                  0px;
-    border-color:                  	@bg;
+    background-color:               @bg2;
+    text-color:                     @bg2;
+	border:							3px;
+    border-radius:                  3px;
+    border-color:                  	@bg3;
 }
